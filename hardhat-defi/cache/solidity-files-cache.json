@@ -1,0 +1,260 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\pecci\\Documents\\Code\\SolidityJavascriptDemos\\hardhat-defi\\contracts\\interfaces\\IWeth.sol": {
+      "lastModificationDate": 1658925091468,
+      "contentHash": "a45fc7026965b0a334c6391020394e4e",
+      "sourceName": "contracts/interfaces/IWeth.sol",
+      "solcConfig": {
+        "version": "0.4.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.4.19"
+      ],
+      "artifacts": [
+        "IWeth"
+      ]
+    },
+    "C:\\Users\\pecci\\Documents\\Code\\SolidityJavascriptDemos\\hardhat-defi\\contracts\\interfaces\\ILendingPool.sol": {
+      "lastModificationDate": 1658929144871,
+      "contentHash": "88da455b674a2b0dff3fedecc432baa0",
+      "sourceName": "contracts/interfaces/ILendingPool.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@aave/protocol-v2/contracts/interfaces/ILendingPoolAddressesProvider.sol",
+        "@aave/protocol-v2/contracts/protocol/libraries/types/DataTypes.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "ILendingPool"
+      ]
+    },
+    "C:\\Users\\pecci\\Documents\\Code\\SolidityJavascriptDemos\\hardhat-defi\\node_modules\\@aave\\protocol-v2\\contracts\\interfaces\\ILendingPoolAddressesProvider.sol": {
+      "lastModificationDate": 1658929541318,
+      "contentHash": "a487bfd067ce6e71ddc7e9cc91302bae",
+      "sourceName": "@aave/protocol-v2/contracts/interfaces/ILendingPoolAddressesProvider.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "ILendingPoolAddressesProvider"
+      ]
+    },
+    "C:\\Users\\pecci\\Documents\\Code\\SolidityJavascriptDemos\\hardhat-defi\\node_modules\\@aave\\protocol-v2\\contracts\\protocol\\libraries\\types\\DataTypes.sol": {
+      "lastModificationDate": 1658929541037,
+      "contentHash": "2127b8d36674faba96bc703f72164a1a",
+      "sourceName": "@aave/protocol-v2/contracts/protocol/libraries/types/DataTypes.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "DataTypes"
+      ]
+    },
+    "C:\\Users\\pecci\\Documents\\Code\\SolidityJavascriptDemos\\hardhat-defi\\contracts\\interfaces\\AggregatorV3Interface.sol": {
+      "lastModificationDate": 1658930740170,
+      "contentHash": "f2604c84d03a13d7e932ae1217a1cf55",
+      "sourceName": "contracts/interfaces/AggregatorV3Interface.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "AggregatorV3Interface"
+      ]
+    },
+    "C:\\Users\\pecci\\Documents\\Code\\SolidityJavascriptDemos\\hardhat-defi\\contracts\\interfaces\\IERC20.sol": {
+      "lastModificationDate": 1658930737880,
+      "contentHash": "18a5ddbe94517954aaf4b65dc1b8b296",
+      "sourceName": "contracts/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.6"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    }
+  }
+}
