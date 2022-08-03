@@ -30,7 +30,20 @@ module.exports = {
 			saveDeployments: true,
 		},
 	},
-	solidity: "0.8.7",
+
+	solidity: {
+		compilers: [
+			{
+				version: "0.8.7",
+			},
+			{
+				version: "0.8.0",
+			},
+			{
+				version: "0.6.6",
+			},
+		],
+	},
 	namedAccounts: {
 		deployer: {
 			default: 0,
@@ -51,9 +64,6 @@ module.exports = {
 	},
 	etherscan: {
 		// yarn hardhat verify --network <NETWORK> <CONTRACT_ADDRESS> <CONSTRUCTOR_PARAMETERS>
-		apiKey: {
-			rinkeby: ETHERSCAN_API_KEY,
-			kovan: ETHERSCAN_API_KEY,
-		},
+		apiKey: ETHERSCAN_API_KEY,
 	},
 }
