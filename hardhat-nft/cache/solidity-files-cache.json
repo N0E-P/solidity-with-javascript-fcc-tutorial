@@ -482,8 +482,8 @@
       ]
     },
     "C:\\Users\\pecci\\Documents\\Code\\SolidityJavascriptDemos\\hardhat-nft\\node_modules\\@chainlink\\contracts\\src\\v0.8\\interfaces\\VRFCoordinatorV2Interface.sol": {
-      "lastModificationDate": 1658939293255,
-      "contentHash": "8c9ed3426b676f67ee200a2bec96e224",
+      "lastModificationDate": 1657207587892,
+      "contentHash": "56ec852a2aeddf81bf5a5720a7fc6a63",
       "sourceName": "@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol",
       "solcConfig": {
         "version": "0.8.7",
@@ -652,8 +652,8 @@
       ]
     },
     "C:\\Users\\pecci\\Documents\\Code\\SolidityJavascriptDemos\\hardhat-nft\\node_modules\\@chainlink\\contracts\\src\\v0.8\\mocks\\VRFCoordinatorV2Mock.sol": {
-      "lastModificationDate": 1658939293286,
-      "contentHash": "a78f72f6c18077e727bc06d7f96b2031",
+      "lastModificationDate": 1657207587911,
+      "contentHash": "0e99ed258a59dc48bc432008b39453cd",
       "sourceName": "@chainlink/contracts/src/v0.8/mocks/VRFCoordinatorV2Mock.sol",
       "solcConfig": {
         "version": "0.8.7",
@@ -830,8 +830,8 @@
       ]
     },
     "C:\\Users\\pecci\\Documents\\Code\\SolidityJavascriptDemos\\hardhat-nft\\contracts\\DynamicSvgNft.sol": {
-      "lastModificationDate": 1659597986154,
-      "contentHash": "b594496608e23b0a973f9d9190e85f5f",
+      "lastModificationDate": 1659616715094,
+      "contentHash": "8e5939516fb6bc4c253b36501944073b",
       "sourceName": "contracts/DynamicSvgNft.sol",
       "solcConfig": {
         "version": "0.8.7",
@@ -876,8 +876,8 @@
       ]
     },
     "C:\\Users\\pecci\\Documents\\Code\\SolidityJavascriptDemos\\hardhat-nft\\node_modules\\@chainlink\\contracts\\src\\v0.8\\interfaces\\AggregatorV3Interface.sol": {
-      "lastModificationDate": 1658939293097,
-      "contentHash": "d9654a0fc044a31d4106ee6bca772add",
+      "lastModificationDate": 1657207587829,
+      "contentHash": "611f626b2447ccff9ba5332460fd217f",
       "sourceName": "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol",
       "solcConfig": {
         "version": "0.8.7",
@@ -957,6 +957,221 @@
       ],
       "artifacts": [
         "Base64"
+      ]
+    },
+    "C:\\Users\\pecci\\Documents\\Code\\SolidityJavascriptDemos\\hardhat-nft\\contracts\\test\\MockV3Aggregator.sol": {
+      "lastModificationDate": 1659598297713,
+      "contentHash": "5abc73bd49c829d4a9d55ec639f45625",
+      "sourceName": "contracts/test/MockV3Aggregator.sol",
+      "solcConfig": {
+        "version": "0.6.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts/src/v0.6/tests/MockV3Aggregator.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": []
+    },
+    "C:\\Users\\pecci\\Documents\\Code\\SolidityJavascriptDemos\\hardhat-nft\\node_modules\\@chainlink\\contracts\\src\\v0.6\\tests\\MockV3Aggregator.sol": {
+      "lastModificationDate": 1657207587480,
+      "contentHash": "b1f27d8f04303e8c78cd057685d883f6",
+      "sourceName": "@chainlink/contracts/src/v0.6/tests/MockV3Aggregator.sol",
+      "solcConfig": {
+        "version": "0.6.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/AggregatorV2V3Interface.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "MockV3Aggregator"
+      ]
+    },
+    "C:\\Users\\pecci\\Documents\\Code\\SolidityJavascriptDemos\\hardhat-nft\\node_modules\\@chainlink\\contracts\\src\\v0.6\\interfaces\\AggregatorV2V3Interface.sol": {
+      "lastModificationDate": 1657207587315,
+      "contentHash": "6b76a24083942363411bb0b83ffeb997",
+      "sourceName": "@chainlink/contracts/src/v0.6/interfaces/AggregatorV2V3Interface.sol",
+      "solcConfig": {
+        "version": "0.6.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./AggregatorInterface.sol",
+        "./AggregatorV3Interface.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "AggregatorV2V3Interface"
+      ]
+    },
+    "C:\\Users\\pecci\\Documents\\Code\\SolidityJavascriptDemos\\hardhat-nft\\node_modules\\@chainlink\\contracts\\src\\v0.6\\interfaces\\AggregatorInterface.sol": {
+      "lastModificationDate": 1658939292263,
+      "contentHash": "0c9be74e354bca05abc54edfdc49607e",
+      "sourceName": "@chainlink/contracts/src/v0.6/interfaces/AggregatorInterface.sol",
+      "solcConfig": {
+        "version": "0.6.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "AggregatorInterface"
+      ]
+    },
+    "C:\\Users\\pecci\\Documents\\Code\\SolidityJavascriptDemos\\hardhat-nft\\node_modules\\@chainlink\\contracts\\src\\v0.6\\interfaces\\AggregatorV3Interface.sol": {
+      "lastModificationDate": 1657207587325,
+      "contentHash": "57d487d5ebb80b57ceb68a4d9bd884e3",
+      "sourceName": "@chainlink/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol",
+      "solcConfig": {
+        "version": "0.6.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "AggregatorV3Interface"
       ]
     }
   }

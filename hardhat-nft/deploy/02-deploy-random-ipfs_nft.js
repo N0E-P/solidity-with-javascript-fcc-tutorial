@@ -29,7 +29,7 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
 	const { deploy, log } = deployments
 	const { deployer } = await getNamedAccounts()
 	const chainId = network.config.chainId
-	let tokenUris
+	//let tokenUris
 
 	if (process.env.UPLOAD_TO_PINATA == "true") {
 		tokenUris = await handleTokenUris()
