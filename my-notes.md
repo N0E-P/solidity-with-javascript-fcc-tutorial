@@ -1,10 +1,9 @@
 # Solidity avec Patrick
 
-Timecode : 0:22:16:30 → 0:23:30:00
+Timecode : 0:22:16:30 → 1:00:06:30
 Objectif : 1:00:00:00
 
 ⭐️ Course Contents ⭐
-[20:28:51](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=73731s) Lesson 14: Hardhat NFTs
 [23:37:03](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=85023s) Lesson 15: NextJS NFT Marketplace (Full Stack / Front End)
 [28:53:11](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=103991s) Lesson 16: Hardhat Upgrades
 [29:45:24](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=107124s) Lesson 17: Hardhat DAOs
