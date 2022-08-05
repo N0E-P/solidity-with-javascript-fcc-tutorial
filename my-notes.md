@@ -1,7 +1,7 @@
 # Solidity avec Patrick
 
-Timecode : 0:22:16:30 → 1:00:06:30
-Objectif : 1:00:00:00
+Timecode : 1:00:06:30 → 1:00:26:00
+Objectif : 1:02:00:00
 
 ⭐️ Course Contents ⭐
 [23:37:03](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=85023s) Lesson 15: NextJS NFT Marketplace (Full Stack / Front End)
