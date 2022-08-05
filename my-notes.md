@@ -1,6 +1,6 @@
 # Solidity avec Patrick
 
-Timecode : 1:00:06:30 → 1:00:26:00
+Timecode : 1:00:06:30 → 1:00:46:00
 Objectif : 1:02:00:00
 
 ⭐️ Course Contents ⭐
