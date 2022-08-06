@@ -1,6 +1,6 @@
 # Solidity avec Patrick
 
-Timecode : 1:01:00:00 → 1:01:00:00
+Timecode : 1:01:00:00 → 1:01:42:00
 Objectif : 1:03:00:00
 
 ⭐️ Course Contents ⭐
@@ -23,6 +23,9 @@ convert eth to wei to gwei
 
 learn ethereum
 [https://speedrunethereum.com/]
+
+ancienne version de moralis avec toutes les fonctionnalités :
+[https://legacy.moralis.io/servers/]
 
 Unix user account / linux terminal :
 user : noe
