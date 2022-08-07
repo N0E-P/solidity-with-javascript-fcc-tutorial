@@ -481,8 +481,8 @@
       ]
     },
     "C:\\Users\\pecci\\Documents\\Code\\SolidityJavascriptDemos\\hardhat-nft-marketplace\\contracts\\test\\BasicNft.sol": {
-      "lastModificationDate": 1659702527355,
-      "contentHash": "a41d69574350a0d5004c36355583889d",
+      "lastModificationDate": 1659858932348,
+      "contentHash": "e0144cd7d0f37dd8d6b8e51852e6a303",
       "sourceName": "contracts/test/BasicNft.sol",
       "solcConfig": {
         "version": "0.8.7",
