@@ -1,6 +1,6 @@
 # Solidity avec Patrick
 
-Timecode : 1:03:55:00 → 1:03:57:00
+Timecode : 1:03:55:00 → 1:04:07:00
 Objectif : 1:05:00:00
 
 ⭐️ Course Contents ⭐
@@ -26,10 +26,6 @@ learn ethereum
 
 ancienne version de moralis avec toutes les fonctionnalités :
 [https://legacy.moralis.io/servers/]
-
-Unix user account / linux terminal :
-user : noe
-password : 35222
 
 ---
 
