@@ -8,7 +8,7 @@ import networkMapping from "../constants/networkMapping.json"
 export default function Home() {
 	const { chainId } = useMoralis()
 	const chainString = chainId ? parseInt(chainId).toString() : "31337"
-	const marketplaceAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3"//networkMapping[chainString].NftMarketplace[0]
+	const marketplaceAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3" //networkMapping[chainString].NftMarketplace[0]
 	const dispatch = useNotification()
 
 	const { runContractFunction } = useWeb3Contract()
@@ -53,12 +53,13 @@ export default function Home() {
 
 		await runContractFunction({
 			params: listOptions,
-			onSuccess: () => handleListSuccess(),
+			onSuccess: handleListSuccess,
 			onError: (error) => console.log(error),
 		})
 	}
 
-	async function handleListSuccess() {
+	async function handleListSuccess(tx) {
+		await tx.wait(1)
 		dispatch({
 			type: "success",
 			message: "NFT listing",
