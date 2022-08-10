@@ -1,0 +1,38 @@
+{
+  "language": "Solidity",
+  "sources": {
+    "contracts/Box.sol": {
+      "content": "//SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.7;\r\n\r\ncontract Box {\r\n\tuint256 internal value;\r\n\tevent ValueChanged(uint256 newValue);\r\n\r\n\tfunction store(uint256 newValue) public {\r\n\t\tvalue = newValue;\r\n\t\temit ValueChanged(newValue);\r\n\t}\r\n\r\n\tfunction retrieve() public view returns (uint256) {\r\n\t\treturn value;\r\n\t}\r\n\r\n\tfunction version() public pure returns (uint256) {\r\n\t\treturn 1;\r\n\t}\r\n}\r\n"
+    },
+    "contracts/BoxV2.sol": {
+      "content": "//SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.7;\r\n\r\ncontract BoxV2 {\r\n\tuint256 internal value;\r\n\tevent ValueChanged(uint256 newValue);\r\n\r\n\tfunction store(uint256 newValue) public {\r\n\t\tvalue = newValue;\r\n\t\temit ValueChanged(newValue);\r\n\t}\r\n\r\n\tfunction retrieve() public view returns (uint256) {\r\n\t\treturn value;\r\n\t}\r\n\r\n\tfunction version() public pure returns (uint256) {\r\n\t\treturn 2;\r\n\t}\r\n\r\n\tfunction increment() public {\r\n\t\tvalue = value + 1;\r\n\t\temit ValueChanged(value);\r\n\t}\r\n}\r\n"
+    }
+  },
+  "settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "abi",
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "evm.methodIdentifiers",
+          "metadata",
+          "devdoc",
+          "userdoc",
+          "storageLayout",
+          "evm.gasEstimates"
+        ],
+        "": [
+          "ast"
+        ]
+      }
+    },
+    "metadata": {
+      "useLiteralContent": true
+    }
+  }
+}
