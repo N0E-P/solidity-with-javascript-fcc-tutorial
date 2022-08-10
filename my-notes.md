@@ -1,10 +1,9 @@
 # Solidity avec Patrick
 
-Timecode : 1:03:55:00 → 1:05:37:00
+Timecode : 1:03:55:00 → 1:06:15:00
 Objectif : 1:06:00:00
 
 ⭐️ Course Contents ⭐
-1J 5H [28:53:11](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=103991s) Lesson 16: Hardhat Upgrades
 1J 6H [29:45:24](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=107124s) Lesson 17: Hardhat DAOs
 1J 7H30 [31:28:32](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=113312s) Lesson 18: Security & Auditing
 
