@@ -1,7 +1,7 @@
 # Solidity avec Patrick
 
-Timecode : 1:03:55:00 → 1:06:46:00
-Objectif : 1:06:00:00
+Timecode : 1:06:47:00 → 1:06:47:00
+Objectif : -> Fin
 
 ⭐️ Course Contents ⭐
 1J 6H [29:45:24](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=107124s) Lesson 17: Hardhat DAOs
