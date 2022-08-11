@@ -24,7 +24,6 @@ const deployGovernorContract: DeployFunction = async function(
             QUORUM_PERCENTAGE,
         ],
         log: true,
-        //gasLimit: 10000000,
     });
 };
 
