@@ -1,7 +1,6 @@
 # Solidity avec Patrick
 
-Timecode : 1:06:47:00 → 1:07:37:00
-Objectif : -> Fin
+Timecode : J'ai fini !!!
 
 ⭐️ Course Contents ⭐
 1J 6H [29:45:24](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=107124s) Lesson 17: Hardhat DAOs
@@ -15,6 +14,7 @@ Video : [https://www.youtube.com/watch?app=desktop&v=gyMwXuJrbJQ]
 blockchain basics : [https://arbiscan.io/address/0xaacb0b62aeb7db938f12161da0e45fc3b2b34179]
 solidity basics : [https://arbiscan.io/address/0xa457a0f9b6edbec66941d7ed1d4d4834330abf52]
 hardhat basics : [https://arbiscan.io/address/0xb29ea9ad260b6dc980513bba29051570b2115110#code]
+end : https://arbiscan.io/address/0x9e9a4e58ddc9483d241afc9a028e89bd9b9fa683#code
 
 convert eth to wei to gwei
 [https://eth-converter.com/]
